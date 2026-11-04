@@ -61,15 +61,18 @@
 
 ### Порівняльна таблиця (10 натискань)
 
-| Режим | Без RC: `interruptCount` / `pressCount` | З RC: `interruptCount` / `pressCount` | Реакція на відпускання | Затримка реакції |
-|---|---|---|---|---|
-| 1. Без debounce | | | так | немає |
-| 2. Time-based | | | можлива | немає |
-| 3. State-based | | | ні | ~50 мс |
-| 4. Polling | 0 / | 0 / | ні | ~50 мс |
-| 5. Short press | | | — | після відпускання |
-| 6. Long press | | | — | 1 с |
-| 7. On release | | | — | після відпускання |
+| Режим | Без RC: `interruptCount` / `pressCount` | Реакція на відпускання | Затримка реакції |
+|---|---|---|---|
+| 1. Без debounce | | так | немає |
+| 2. Time-based | | можлива | немає |
+| 3. State-based | <img width="588" height="60" alt="Знімок екрана 2026-11-04 183424" src="https://github.com/user-attachments/assets/487553cd-d326-4a66-b812-6df173ad0a4e" /> | ні | ~50 мс |
+| 4. Polling | 0 / | ні | ~50 мс |
+| 5. Short press | | — | після відпускання |
+| 6. Long press | | — | 1 с |
+| 7. On release | | — | після відпускання |
+
+3.
+
 
 ## Запуск
 
