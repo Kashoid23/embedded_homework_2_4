@@ -16,7 +16,7 @@
 #define MODE_ON_RELEASE 7 // action after release
 
 // Current mode, change to test different modes
-#define MODE MODE_STATE_DEBOUNCE
+#define MODE MODE_ON_RELEASE
 
 void onButtonInterrupt(void);
 
