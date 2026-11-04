@@ -63,16 +63,13 @@
 
 | Режим | Без RC: `interruptCount` / `pressCount` | Реакція на відпускання | Затримка реакції |
 |---|---|---|---|
-| 1. Без debounce | | так | немає |
-| 2. Time-based | | можлива | немає |
-| 3. State-based | <img width="588" height="60" alt="Знімок екрана 2026-11-04 183424" src="https://github.com/user-attachments/assets/487553cd-d326-4a66-b812-6df173ad0a4e" /> | ні | ~50 мс |
-| 4. Polling | 0 / | ні | ~50 мс |
-| 5. Short press | | — | після відпускання |
-| 6. Long press | | — | 1 с |
-| 7. On release | | — | після відпускання |
-
-3.
-
+| 1. Без debounce | <img width="588" height="59" alt="Знімок екрана 2026-11-04 184534" src="https://github.com/user-attachments/assets/21b2563e-e208-401c-96d0-d016c92b0120" /> | так | немає |
+| 2. Time-based | <img width="586" height="58" alt="Знімок екрана 2026-11-04 184835" src="https://github.com/user-attachments/assets/1088f774-30ef-4e62-9125-5a0939f98314" /> | можлива | немає |
+| 3. State-based | <img width="586" height="59" alt="Знімок екрана 2026-11-04 185200" src="https://github.com/user-attachments/assets/69ff2d3d-ce96-49df-85fe-c76f37348ffd" /> | ні | ~50 мс |
+| 4. Polling | <img width="589" height="61" alt="Знімок екрана 2026-11-04 185344" src="https://github.com/user-attachments/assets/e7b69adc-b3df-4941-8a30-540db0012e1d" /> | ні | ~50 мс |
+| 5. Short press | <img width="587" height="58" alt="Знімок екрана 2026-11-04 185516" src="https://github.com/user-attachments/assets/9f782eb2-1703-4b02-96ab-79c0d104316b" /> | — | після відпускання |
+| 6. Long press | <img width="587" height="58" alt="Знімок екрана 2026-11-04 185700" src="https://github.com/user-attachments/assets/bb54fb36-c474-49b2-b93b-fd101ee11bd3" /> | — | 1 с |
+| 7. On release | <img width="586" height="59" alt="Знімок екрана 2026-11-04 185910" src="https://github.com/user-attachments/assets/3f902d8a-da0a-4116-9da7-823664a0b939" /> | — | після відпускання |
 
 ## Запуск
 
